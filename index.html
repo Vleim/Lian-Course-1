@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html>
 <style>
-	p {
-		color:skyblue;
-		size:26px;
+	.main {
+		color: blue;
+		font-size: 40px;
 	}
-	div {
-		color:darkgrey;
-		size:20px
+	.header {
+		color: black;
+		font-size: 80px;
+		text-align: center;
+		font-style: bold;
+		font-family: Georgia;
+		background: darkgray;
+	}
+	body {
+		background-color:slategray;
 	}
 </style>
 
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Hello There</title>
+	<title>Hello world</title>
 </head>
 <body>
-	<h1>I Changed It</h1>
-	<p>This is a test 1</p>
+	<h1 class="header">I Changed It</h1>
+	<p class="main">This is a test 1</p>
+	<p style="text-align: center; margin: 75px;">This is to show the default size of the text before class formatting</p>
+	<p style="text-align: center; color: red; font-size: 25px; font-style: bold; margin: 75px;">Tried something new here</p>
+	<p class="main" style="font-family: Georgia; font-size: 35px; text-align: center;"> This was to try out a new font and to mix class definition with aditional style tags</p>
 </body>
 </html>
