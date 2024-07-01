@@ -1,0 +1,32 @@
+body {
+	background-color: #202020;
+	font-family: Verdana, Arial;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+h1 {
+	font-size: 3em;
+	margin: 0px;
+}
+.header {
+	padding: 5px 5px 5px 5px;
+	color: #d0d0d0;
+	background-color: #3a3a3a;
+	/* margin: 6px; */
+}
+.box {
+	padding: 10px;
+	background-color: #202020;
+}
+.boxEdge {
+	padding: 11px;
+	background-color: #151515;
+}
+.basic {
+	color: #1c5e8b;
+	font-size: 1.5em;
+}
+.background {
+	color: #202020;
+}
